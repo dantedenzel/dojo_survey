@@ -30,7 +30,7 @@ class Survey:
             flash("Name must be at least 3 characters.")
         if len(survey['location']) < 1:
             is_valid = False
-            flash("Must choose a dojo location.")
+            flash("Must choose a location.")
         if len(survey['language']) < 1:
             is_valid = False
             flash("Must choose a favorite language.")
